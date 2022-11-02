@@ -30,7 +30,7 @@ public class Task {
 
     @Override
     public int hashCode() {
-        return Objects.hash(value1* valeu2);
+        return Objects.hash(value1* valeu2, value1+valeu2);
     }
 
     @Override

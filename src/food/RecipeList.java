@@ -9,7 +9,7 @@ public class RecipeList {
 
     public void addRecipe(Recipie recipie) {
         if (recipies.contains(recipie)) {
-            throw new IllegalArgumentException("Такой рецепь уже существует");
+            throw new IllegalArgumentException("Такой рецепт уже существует");
         } else {
             recipies.add(recipie);
         }
