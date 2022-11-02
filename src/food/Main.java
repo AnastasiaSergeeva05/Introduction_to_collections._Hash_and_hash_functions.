@@ -1,3 +1,8 @@
+package food;
+
+import school.MultiplicationTable;
+import school.Task;
+
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
@@ -18,7 +23,12 @@ public class Main {
         Recipie recipie = new Recipie("Рецепт оливье", Set.of(vinograd, hleb));
         System.out.println(recipie);
 
+       MultiplicationTable multiplicationTable = new MultiplicationTable();
+        System.out.println(multiplicationTable);
+
+
         numberRemove();
+
     }
 
     private static void numberRemove() {

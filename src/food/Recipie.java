@@ -1,3 +1,5 @@
+package food;
+
 import java.util.Objects;
 import java.util.Set;
 
@@ -49,7 +51,7 @@ public class Recipie {
 
     @Override
     public String toString() {
-        return "Recipie{" +
+        return "food.Recipie{" +
                 "name='" + name + '\'' +
                 ", products=" + products +
                 '}';
