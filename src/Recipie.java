@@ -39,12 +39,12 @@ public class Recipie {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Recipie recipie = (Recipie) o;
-        return name.equals(recipie.name) && products.equals(recipie.products);
+        return Objects.equals(name, recipie.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, products);
+        return Objects.hash(name);
     }
 
     @Override
